@@ -76,7 +76,7 @@ signals connected to those ports to be ignored. The result is that
 LEDs 3 and 4 have incorrect fixed values.
 
 You can see this in the synthesis simulation output:
-
+```
   OBUF led_3_obuf (
     .O(led[3]),
     .I(VCC)
@@ -85,6 +85,7 @@ You can see this in the synthesis simulation output:
     .O(led[4]),
     .I(GND)
 );
+```
 
 Removing the default values from these ports in core.vhd fixes the issue.
 

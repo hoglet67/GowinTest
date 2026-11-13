@@ -14,7 +14,6 @@ end entity;
 
 architecture rtl of top is
 
-signal t00 : std_logic;
 signal t01 : std_logic;
 signal t10 : std_logic;
 signal t11 : std_logic;

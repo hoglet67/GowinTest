@@ -29,10 +29,9 @@ begin
 end architecture;
 ```
 
-The presence of a default value on core ports b0 and b1 case the
-signals connected to those ports to be ignored.
-
-The result is that LEDs 3 and 4 have incorrect fixed values.
+The presence of default values on core ports b0 and b1 cause the
+signals connected to those ports to be ignored. The result is that
+LEDs 3 and 4 have incorrect fixed values.
 
 You can see this in the synthesis simulation output:
 
